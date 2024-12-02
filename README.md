@@ -1,4 +1,4 @@
-This is my first html+css project.
+This is my first html+css project
 and I used semantic html coding.
 <br>The main language - RU.
 <br>Here is a link to Figma design - https://disk.yandex.ru/d/d7rS7fRYr8fqQQ
