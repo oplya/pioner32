@@ -1,4 +1,7 @@
-Hello everyone. This is my first html+css project.
-I used semantic html coding.
-Here is a link to Figma design - 
-https://www.figma.com/design/rTIAAgDAufAPl61AWjYlrb/Пионер?node-id=0-1&node-type=canvas&t=HJ4l1iZCa2fcHZhn-0
+This is my first html+css project.
+and I used semantic html coding.
+<br>The main language - RU.
+<br>Here is a link to Figma design - https://disk.yandex.ru/d/d7rS7fRYr8fqQQ
+<h1 aligh="center">Preview:</h1>
+
+![Desktop](https://github.com/user-attachments/assets/5b73370c-a6d3-403d-868f-a370c66fd303)
