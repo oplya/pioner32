@@ -35,7 +35,7 @@ p{
     margin: 0;
 }
 
-.container{
+.container__custom{
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -300,6 +300,14 @@ p{
     color: #607CE6;
 }
 
+.news__block-link:hover{
+    position: absolute;
+    border: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: #131a36;
+}
+
 .news__block-date{
     position: absolute;
     bottom: 26px;
@@ -358,7 +366,7 @@ p{
 }
 
 @media (max-width: 1180px){
-    .container{
+    .container__custom{
         margin: 0 15px 0;
     }
     .header__menu{
