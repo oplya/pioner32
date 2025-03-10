@@ -6,6 +6,7 @@ and I used semantic html coding together with the methodology BEM (Block, Elemen
 <ul>Changelog: 
   <li>[18.12.2024] added adapting for tablet and mobile device and 2x images for Retina screens </li>
   <li>[08.03.2025] added Bootstrap 5.3.3 and callback form</li>
+  <li>[10.03.2025] added a carousel using bootstrap in the news section</li>
 </ul>
 <h1>
   <a href="https://htmlpreview.github.io/?https://github.com/oplya/pioner32/blob/main/index.html">Preview(clickable):</a>
