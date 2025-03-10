@@ -272,32 +272,32 @@ p{
 }
 
 .news__block{
-    display: flex;
-    justify-content: space-between;
+    display: none;
 }
 
 .news__block-image{
     display: block;
-    width: 380px;
-    height: 251px;
+    margin: 0 auto;
+    width: 100%;
+    border:solid #F5F5F5;
+    border-width: 20px 60px;
 }
 
 .news__block-title{
-    padding-top: 16px;
-    padding-left: 16px;
-    font-size: 1.25rem;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.4em; 
+    line-height: 1.4em;
 }
 
 .news__block-link{
     position: absolute;
     bottom: 25px;
-    left: 16px;
+    left: 150px;
     font-size: 1rem;
     font-weight: 400; 
     text-decoration: none; 
-    color: #607CE6;
+    color: #fff;
 }
 
 .news__block-link:hover{
@@ -311,7 +311,7 @@ p{
 .news__block-date{
     position: absolute;
     bottom: 26px;
-    right: 16px;
+    right: 150px;
 }
 
 .footer{
@@ -363,6 +363,11 @@ p{
     font-weight: 400;
     line-height: 16.8px;
     padding-top: 49px;
+}
+
+/* BOOTSTRAP */
+.carousel-control-next, .carousel-control-prev{
+    width: 25%;
 }
 
 @media (max-width: 1180px){
@@ -520,6 +525,7 @@ p{
         padding-bottom: 20px;
     }
     .news__block {
+        display: flex;
         flex-direction: column;
         gap: 15px 0px;
     }
@@ -528,10 +534,11 @@ p{
         height: 100%;
     }
     .news__block-image {
-        width: 50%;
+        width: 60%;
         height: auto;
     }
     .news__block-title{
+        padding-top: 10px;        
         padding-right: 10px;
         font-size: 1.10rem;
     }
@@ -539,6 +546,15 @@ p{
         padding-bottom: 2px;
         right: 101px;
         left: auto;
+        color: #0D6EFD;
+    }
+    .news__block-link{
+        right: 100px;
+        bottom: 9px;
+    }
+    .news__block-date{
+        bottom: 10px;
+        right: 20px;
     }
     .footer__inner{
         display: block;
@@ -568,6 +584,11 @@ p{
     }
     .footer__since{
         padding-top: 0;
+    }
+
+    /* BOOTSTRAP */
+    .carousel{
+        display: none;
     }
 }
 
@@ -663,12 +684,14 @@ p{
         gap: 10px 0px;
     }
     .newsblock{
-        height: 170px;
+        height: 100px;
     }
     .news__block-title{
         font-size: 1rem;
+        padding-left: 10px;
     }
     .news__block-image {
+        display: none;
         width: 40%;
         padding-top: 16px;
         padding-left: 10px;
