@@ -161,7 +161,40 @@
                         <a href="#" class="header__menu-link">
                             Контакты</a>
                     </li>
-                    <!-- <li class="header__menu-item_right__burger">
+                    <!-- Кнопка для открытия формы -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#callbackModal">
+                        Заказать звонок
+                    </button>
+
+                    <!-- Модальное окно с формой -->
+                    <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="callbackModalLabel">Перезвоните мне</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Ваше имя</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="phone" class="form-label">Номер телефона</label>
+                                            <input type="tel" class="form-control" id="phone" placeholder="+7 (___) ___-__-__" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label">Комментарий (необязательно)</label>
+                                            <textarea class="form-control" id="message" rows="3" placeholder="Оставьте комментарий"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">Отправить</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <li class="header__menu-item__burger">
                         <a href="#" class="header__menu-link">
                             <img src="images/callback.svg" alt="callback" class="callback_image">Перезвоните мне
                         </a> 
