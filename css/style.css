@@ -496,6 +496,7 @@ p{
     }
     .header{
         background-color: black;
+        z-index: 1;
     }
     .header__inner{
         padding-top: 0px;
@@ -512,6 +513,9 @@ p{
         display: block;
         height: 25px;
         width: 30px;
+    }
+    .label__burger {
+        display: block;
     }
     .label__burger::after, .label__burger::before, .label__burger span {
         position: absolute;
@@ -555,17 +559,16 @@ p{
         left: 0;
         right: 0;
         background-color: #151515;
-        z-index: -1;
         flex-direction: column;
         text-align: center;
         left: -100vw;
         right: 100vw;
+        padding-top: 25px;
     }
 
     #burger-toggle1:checked ~ .header__menu-list__burger {
         left: 0;
         right: 0;
-        z-index: 999;
     }
 
     .header__menu-item__burger a {
