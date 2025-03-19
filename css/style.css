@@ -397,6 +397,11 @@ p{
     width: 25%;
 }
 
+.btn{
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0;
+}
+
 @media (max-width: 1180px){
     .container__custom{
         margin: 0 15px 0;
@@ -520,7 +525,6 @@ p{
         margin-top: 5px;
     }
 
-    /* Показать кнопку бургера */
     .label__burger {
         display: block;
         position: relative;
@@ -529,7 +533,6 @@ p{
         cursor: pointer;
     }
 
-    /* Линии бургера */
     .label__burger::after,
     .label__burger::before,
     .label__burger span {
@@ -553,7 +556,6 @@ p{
         top: 11px;
     }
 
-    /* Анимация кнопки при открытии */
     #burger-toggle1:checked + .label__burger::after {
         transform: rotate(45deg);
         bottom: 10px;
@@ -569,7 +571,6 @@ p{
         top: 12px;
     }
 
-    /* Скрыть меню по умолчанию */
     .header__menu-list__burger {
         display: flex;
         flex-wrap: wrap;
@@ -587,25 +588,15 @@ p{
         padding-left: 10px;
     }
 
-    /* Показать меню при активации чекбокса */
     #burger-toggle1:checked ~ .header__menu-list__burger {
         left: 0;
         right: 0;
     }
 
-    /* Увеличить шрифт пунктов меню */
     .header__menu-item__burger a {
         font-size: 1.25rem;
     }
-    /* .header__logo{
-        display: flex;
-        margin: 0 auto;
-        padding-bottom: 18px;
-    }
-    .header__email-phone{
-        display: flex;
-        justify-content: space-around;
-    } */
+
     .main__headline {
         padding-top: 35px;
         padding-bottom: 20px;
