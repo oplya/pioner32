@@ -10,7 +10,7 @@ and I used semantic html coding together with the methodology BEM (Block, Elemen
   <li>[18.03.2025] added hamburger menu for tablet and mobile devices without JS and some fixes </li>
 </ul>
 <h1>
-  <a href="https://htmlpreview.github.io/?https://github.com/oplya/pioner32/blob/main/index.html">Preview(clickable):</a>
+Preview:
 </h1>
 
 ![Desktop](https://github.com/user-attachments/assets/5b73370c-a6d3-403d-868f-a370c66fd303)
